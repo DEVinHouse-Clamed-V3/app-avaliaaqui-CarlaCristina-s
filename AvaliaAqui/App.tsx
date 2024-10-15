@@ -3,6 +3,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 
 import Home from "./src/pages/Home";
 import Products from "./src/pages/Products";
+import FormAva from "./src/pages/FormAva";
 
 const Stack = createStackNavigator();
 
@@ -13,21 +14,16 @@ export default function App() {
         <Stack.Screen
           name="Home"
           component={Home}
-          options={{
-            headerStyle: {
-              backgroundColor: "#eee",
-            },
-          }}
         />
 
         <Stack.Screen
           name="Products"
           component={Products}
-          options={{
-            headerStyle: {
-              backgroundColor: "#eee",
-            },
-          }}
+        />
+
+        <Stack.Screen
+          name="FormAva"
+          component={FormAva}
         />
       </Stack.Navigator>
     </NavigationContainer>

@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
     marginBottom: 30,
   },
   homeButton: {
-    backgroundColor: "#900707",
+    backgroundColor: "#317bcf",
     width: 100,
     padding: 10,
     borderRadius: 10,
